@@ -1,7 +1,7 @@
 console.log('starting playground.js');
  
 async function corpusLookup(query) {
-  const corpusUrl = `https://primary-production-0e5f.up.railway.app/webhook-test/89b8bb2f-ec09-4809-b0ae-f90f7e9eab8d`;
+  const corpusUrl = `https://primary-production-0e5f.up.railway.app/webhook/89b8bb2f-ec09-4809-b0ae-f90f7e9eab8d`;
   const n8nAPIHeaders = {
     "Content-Type": 'application/json'
   };
