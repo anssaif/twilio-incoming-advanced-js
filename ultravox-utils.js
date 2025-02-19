@@ -112,10 +112,11 @@ export async function corpusLookup(query) {
   const response = await fetch(corpusUrl, {
     method: 'POST',
     headers: n8nAPIHeaders,
-    body: JSON.stringify({ ...postBody }),
+    body: JSON.stringify({ postBody }),
   });
 
-  console.log('Fixie API response status:', response.status);
+  console.log('N8N response status:', response.status);
+  console.log('N8N response msg:', response.body);
 
   if (!response.ok) {
     const errorText = await response.text();
