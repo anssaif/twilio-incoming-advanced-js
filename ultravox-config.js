@@ -1,4 +1,4 @@
-const toolsBaseUrl = "https://primary-production-0e5f.up.railway.app/webhook/89b8bb2f-ec09-4809-b0ae-f90f7e9eab8d"; // TODO ngrok URL here
+const toolsBaseUrl = "https://ai-twilio-agent-production.up.railway.app"; // TODO ngrok URL here
 
 // Ultravox configuration
 const SYSTEM_PROMPT = `
