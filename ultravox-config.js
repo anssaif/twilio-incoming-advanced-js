@@ -1,4 +1,4 @@
-const toolsBaseUrl = "https://3f5e-2600-1702-4a77-500f-bcb7-71d6-379e-bc74.ngrok-free.app"; // TODO ngrok URL here
+const toolsBaseUrl = "https://primary-production-0e5f.up.railway.app/webhook/89b8bb2f-ec09-4809-b0ae-f90f7e9eab8d"; // TODO ngrok URL here
 
 // Ultravox configuration
 const SYSTEM_PROMPT = `
@@ -100,7 +100,7 @@ const selectedTools = [
   {
     "temporaryTool": {
       "modelToolName": "knowledgeLookup",
-      "description": "Used to lookup information about HVAC terms, products, and how-tos. This will search a vector database and return back chunks that are semantically similar to the query.",
+      "description": "Used to lookup information about Babylon TRC, products, and how-tos. This will search a vector database and return back chunks that are semantically similar to the query.",
       "dynamicParameters": [
         {
           "name": "query",
