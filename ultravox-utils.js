@@ -115,8 +115,7 @@ export async function corpusLookup(query) {
     body: JSON.stringify({ postBody }),
   });
 
-  console.log('N8N response status:', response.status);
-  console.log('N8N response msg:', response.body);
+
 
   if (!response.ok) {
     const errorText = await response.text();
@@ -125,5 +124,7 @@ export async function corpusLookup(query) {
   }
 
   const data = await response.json();
+  console.log('N8N response status:', response.status);
+  console.log('N8N response msg:', response.body);
   return data;
 }
